@@ -70,10 +70,6 @@ body {
   color: #212529;
 }
 
-.fa-github {
-  font-size: 1.5rem;
-  vertical-align: middle !important;
-}
 
 @media (max-width: 480px) {
   .navresp {
