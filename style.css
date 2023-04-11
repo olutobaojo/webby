@@ -161,7 +161,7 @@ h2 {
 .reveal {
   display: block;
   animation: reveal 1.75s cubic-bezier(0.77, 0, 0.175, 1) forwards;
-  animation-delay: 1.4s;
+  animation-delay: 1s;
 }
 
 @keyframes reveal {
