@@ -355,3 +355,31 @@ ion-icon {
     text-decoration: none;
     text-align: center;
 }
+
+/**input**/
+.roundbox
+{  
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px;  
+  border-radius: 6px 6px 6px 6px;
+  padding: .75rem;
+  width: 250px; 
+  border: solid 5px #302e30;
+  outline: solid 7px  #61adff;
+}
+
+.boxcontenttext {
+font-family: "Nunito Sans", sans-serif;
+  font-size: 1.125rem;
+  color: gray;
+  letter-spacing: .0125rem;
+  display: inline !important;
+}
+
+.flexi {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-bottom: 2rem;
+}
