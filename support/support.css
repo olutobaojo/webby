@@ -22,7 +22,8 @@ body {
 }
 
 ::-moz-selection {
-  background: #ffe987 !important; /* Firefox */
+  background: #ffe987 !important;
+  /* Firefox */
   color: #212529 !important;
 }
 
@@ -70,7 +71,7 @@ body {
 }
 
 .fa-github {
-  font-size: 1.5rem !important;
+  font-size: 1.5rem;
   vertical-align: middle !important;
 }
 
@@ -80,6 +81,7 @@ body {
     margin-left: -4vw !important;
     display: block !important;
   }
+
   .nav-link {
     float: left !important;
     width: 100vw !important;
@@ -88,7 +90,7 @@ body {
     align-items: left !important;
     display: block !important;
   }
-} 
+}
 
 @media (max-width: 425px) {
   .navresp {
