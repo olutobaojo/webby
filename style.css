@@ -4,7 +4,7 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
- 
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -88,7 +88,7 @@ body {
     align-items: left !important;
     display: block !important;
   }
-} 
+}
 
 @media (max-width: 425px) {
   .navresp {
@@ -98,20 +98,18 @@ body {
   }
 }
 
-
 @media (max-width: 1920px) {
   .hero {
     padding-bottom: 6.25rem;
   }
   .text {
-        margin-top: 8rem !important;
+    margin-top: 8rem !important;
   }
 }
 @media (max-width: 1366px) {
   .hero {
     padding-bottom: 0rem;
   }
-  
 }
 .text {
   margin-top: 7rem;
@@ -162,7 +160,7 @@ h2 {
 
 .reveal {
   display: block;
-  animation: reveal 1.75s cubic-bezier(0.77, 0, 0.175, 1) forwards; 
+  animation: reveal 1.75s cubic-bezier(0.77, 0, 0.175, 1) forwards;
   animation-delay: 1.4s;
 }
 
@@ -178,7 +176,7 @@ h2 {
 .features-section {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   background-color: #ebebeb;
   height: auto !important;
   width: 100% !important;
@@ -238,10 +236,10 @@ h2 {
 }
 
 @media (max-width: 480px) {
-.arrowm {
-  color: red;
-  vertical-align: bottom;
-}
+  .arrowm {
+    color: red;
+    vertical-align: bottom;
+  }
 }
 
 .feat-a:hover .arrowm {
@@ -270,19 +268,19 @@ ion-icon {
 
 @media (max-width: 1280px) {
   .checksection {
-  position: relative;
-  left: 3vw;
-}
+    position: relative;
+    left: 3vw;
+  }
 }
 @media (max-width: 992px) {
   .othercol {
-  display: grid;
-  place-items: center;
-}
+    display: grid;
+    place-items: center;
+  }
   .checksection {
-  position: relative;
-  left: 0vw;
-}
+    position: relative;
+    left: 0vw;
+  }
 }
 
 .custom-shape-divider-top-1616295319 {
@@ -307,79 +305,77 @@ ion-icon {
 }
 
 .comingsoon {
-    display: flex;
-    height: auto;
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background: #007BFF;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 1.125rem;
-    font-weight: 600;
-    margin: auto;
-    position: relative;
-    top: 0; 
-    bottom: 0;
-    visibility: visible;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: auto;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  visibility: visible;
+  justify-content: center;
+  align-items: center;
 }
 /*** Responsive Displays ***/
 .announceheading {
   margin-bottom: 2rem;
 }
 .announcementbar {
-    display: flex;
-    width: 100vw;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    background: #e02245;
-    position: absolute;
-    top: 0; 
+  display: flex;
+  width: 100vw;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background: #e02245;
+  position: absolute;
+  top: 0;
 }
 
 .announce {
-    visibility: visible;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    vertical-align: middle;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: #fce9e6;
-    text-decoration: none;
-    text-align: center;
+  visibility: visible;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  vertical-align: middle;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fce9e6;
+  text-decoration: none;
+  text-align: center;
 }
 
 /**input**/
-.roundbox
-{  
+.roundbox {
   -moz-border-radius: 6px 6px 6px 6px;
-  -webkit-border-radius: 6px;  
+  -webkit-border-radius: 6px;
   border-radius: 6px 6px 6px 6px;
-  padding: .75rem;
-  width: 250px; 
+  padding: 0.75rem;
+  width: 250px;
   border: solid 5px #302e30;
-  outline: solid 7px  #61adff;
+  outline: solid 7px #61adff;
 }
 
 .boxcontenttext {
-font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 1.125rem;
   color: gray;
-  letter-spacing: .0125rem;
+  letter-spacing: 0.0125rem;
   display: inline !important;
 }
 
 .flexi {
- 
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   padding-bottom: 2rem;
 }
